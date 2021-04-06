@@ -1,0 +1,369 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+body {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.header-wrap {
+  background-image: url(main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 577.5px;
+}
+
+header {
+  height: 100px;
+}
+
+.header-container {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.header-container img {
+  padding-top: 30px;
+  width: 139px;
+}
+
+.header-container img:hover {
+  opacity: 0.5;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  text-align: right;
+}
+
+.header-right ul {
+  display: flex;
+  padding-top: 46px;
+}
+
+.header-right li {
+  list-style: none;
+  padding: 0 30px;
+  font-size: 18px;
+}
+
+.header-right a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  opacity: 0.5;
+}
+
+.header-right img {
+  width: 18px;
+  padding-right: 20px;
+  display: none;
+}
+
+.header-bottom {
+  height: 480px;
+  text-align: center;
+}
+
+.header-bottom p {
+  margin: 0 auto;
+  padding-top: 179.5px;
+  font-size: 48px;
+}
+
+.news-container {
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 94.5px;
+  margin-bottom: 185px;
+}
+
+.news-container h1 {
+  text-align: center;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: normal;
+  padding-bottom: 64px;
+}
+
+.d1, .d2, .d3 {
+  width: 55%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.news-container a {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.news-container a:hover {
+  opacity: 0.5;
+}
+
+.news-container span {
+  margin: 0 30px;
+  padding: 4.1px 8.2px;
+  font-size: 11px;
+  line-height: 11px;
+  border: 1px solid black;
+}
+
+.news-container dt, dd {
+  padding-top: 33px;
+  padding-bottom: 34.2px;
+}
+
+.example-container {
+  width: 64.5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.example-top h1 {
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: normal;
+  padding-bottom: 95px;
+}
+
+.example {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example1, .example2 {
+  width: 43.9%;
+  margin-bottom: 70px;
+}
+
+.building {
+  width: 100%;
+}
+
+.example1 h2, .example2 h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: normal;
+  padding-top: 23px;
+  padding-bottom: 20px;
+}
+
+.example1 p, .example2 p {
+  font-size: 14px;
+  line-height: 14px;
+  padding-bottom: 17px;
+}
+
+.more {
+  width: 70%;
+}
+
+.more:hover {
+  opacity: 0.5;
+}
+
+.detail a {
+  color: black;
+  text-decoration: none;
+}
+
+.detail p {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 185px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.detail p:hover {
+  opacity: 0.5;
+}
+
+.bottom-wrapper {
+  display: flex;
+}
+
+.bottom1, .bottom2, .bottom3 {
+  display: block;
+  width: calc(100%/3);
+}
+
+.bottom1:hover, .bottom2:hover, .bottom3:hover {
+  opacity: 0.5;
+}
+
+.bottom-wrapper img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+footer {
+  background-color: black;
+  height: 155px;
+}
+
+.footer-container {
+  max-width: 1155px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right ul {
+  display: flex;
+  width: 100%;
+  margin-right: 28px;
+}
+
+.footer-right li {
+  padding: 0 30px;
+  padding-top: 42px;
+  font-size: 18px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  opacity: 0.5;
+}
+
+.footer-left img {
+  width: 94.86px;
+  height: 40px;
+  padding-top: 30px;
+  margin-left: 28px;
+}
